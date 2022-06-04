@@ -10,4 +10,10 @@ func main() {
 	s = s1 + s2
 	fmt.Println(s)
 
+	var x int32 = 19
+	var y int32 = 22
+	var z1 = x + y
+	fmt.Println("First number:", x)
+	fmt.Println("Second number:", y)
+	fmt.Println(x, "+", y, "=", z1)
 }
