@@ -10,4 +10,11 @@ func main() {
 	s = s1 + s2
 	fmt.Println(s)
 
+	var x, y, z1 int32
+	x = 10
+	y = 3
+	z1 = x / y
+
+	fmt.Println(z1)
+
 }
