@@ -24,4 +24,8 @@ func main() {
 	fmt.Println(x, "*", y, "=", z2)
 	fmt.Println(x, "/", y, "=", z3, " (", z4, ")")
 
+	var z5 float32
+	z5 = float32(x) / float32(y)
+	fmt.Println(x, "/", y, "=", z5)
+
 }
