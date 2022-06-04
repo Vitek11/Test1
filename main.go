@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	fmt.Println("Hello , my dear friend!")
@@ -27,5 +30,12 @@ func main() {
 	var z5 float32
 	z5 = float32(x) / float32(y)
 	fmt.Println(x, "/", y, "=", z5)
+
+	var z6, z7 float64
+	z6 = math.Sqrt(float64(x))
+	z7 = math.Sqrt(float64(y))
+
+	fmt.Println("sqrt (", x, ") = ", z6)
+	fmt.Println("sqrt (", y, ") = ", z7)
 
 }
