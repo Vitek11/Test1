@@ -15,5 +15,7 @@ func main() {
 	y = 2
 	z1 = x * y
 
-	fmt.Println(z1)
+	fmt.Println("Number 1:", x)
+	fmt.Println("Number 2:", y)
+	fmt.Println(x, "*", y, "=", z1)
 }
