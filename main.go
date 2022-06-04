@@ -15,6 +15,8 @@ func main() {
 	y = 3
 	z1 = x / y
 
-	fmt.Println(z1)
+	fmt.Println("x:", x)
+	fmt.Println("y:", y)
+	fmt.Println(x, "/", y, "=", z1)
 
 }
