@@ -10,4 +10,10 @@ func main() {
 	s = s1 + s2
 	fmt.Println(s)
 
+	var x, y, z1 int16
+	x = 54
+	y = 2
+	z1 = x * y
+
+	fmt.Println(z1)
 }
