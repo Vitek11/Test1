@@ -22,5 +22,8 @@ func main() {
 	z1 = math.Sqrt(float64(x))
 	z2 = math.Sqrt(float64(y))
 
-	fmt.Println(z1, z2)
+	fmt.Println("x:", x)
+	fmt.Println("y:", y)
+	fmt.Println("sqrt (", x, ") = ", z1)
+	fmt.Println("sqrt (", y, ") = ", z2)
 }
