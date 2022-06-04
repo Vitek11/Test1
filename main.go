@@ -13,5 +13,7 @@ func main() {
 	var x int32 = 19
 	var y int32 = 22
 	var z1 = x + y
-	fmt.Println(z1)
+	fmt.Println("First number:", x)
+	fmt.Println("Second number:", y)
+	fmt.Println(x, "+", y, "=", z1)
 }
